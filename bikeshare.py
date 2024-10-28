@@ -23,7 +23,7 @@ def get_filters():
         if city in ('chicago', 'new york city', 'washington'):
             break
         else:
-            print('Sorry, please try again and enter a valid city name')
+            print('Sorry, that city input was invalid. Please try again.')
             continue
 
 
@@ -33,7 +33,7 @@ def get_filters():
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
             break
         else:
-            print('Sorry, please try again and enter a valid month')
+            print('Sorry, that month input was invalid. Please try again.')
             continue
 
 
@@ -43,7 +43,7 @@ def get_filters():
         if day in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
             break
         else:
-            print('Sorry, that input is not valid. Please try again.')
+            print('Sorry, that month input was invalid. Please try again.')
             continue
 
 
