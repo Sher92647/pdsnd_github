@@ -1,12 +1,10 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
 October 28, 2024
 
 ### Exploring US Bikeshare Data
 
 ### Description
-This project explores data related to bike share systems for three major cities in the United States, Chicago, New York City, and Washington. The code will prompt users for inputs to filter the data, as well as provide insight into key statistics on travel time/duration, station usage, and users of the bikeshare system.
+This project explores data related to bike share systems for three major cities in the United States, Chicago, New York City, and Washington. The code will prompt users for inputs to filter the data, as well as provide insight into key statistics on travel time/duration, station usage, and users of the bikeshare system. Users will also be able to view the raw data.
 
 ### Files used
 bikeshare.py
