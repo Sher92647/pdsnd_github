@@ -124,7 +124,11 @@ def station_stats(df):
     combination_station = combination_station.sort_values(['Start Station', 'End Station'], ascending = False)
     print('\nThe most popular trip from start to end was:', combination_station.iloc[:1, :1])
 
-
+    # display most uncommon combination of start station and end station trip
+    combination_station = df.groupby(['Start Station', 'End Station']).count()
+    combination_station = combination_station.sort_values(['Start Station', 'End Station'], ascending = True)
+    print('\nThe most uncommon trip from start to end was:', combination_station.iloc[:1, :1])
+    
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
